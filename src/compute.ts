@@ -16,7 +16,7 @@ export function combinations(n: number, r: number): number {
 
   let result = n;
   for (let i = 1; i < r; i++) {
-    result *= result - i;
+    result *= n - i;
   }
   result /= factorial(r);
 
