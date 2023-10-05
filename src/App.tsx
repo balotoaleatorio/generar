@@ -47,7 +47,7 @@ export default function () {
         </For>
         <div class="pt-2 flex items-center justify-center text-sm text-black/80 print:invisible">
           <button onClick={refreshAll} class="hover:underline active:text-black/50">
-            Refresh all
+            Recargar todos
           </button>
         </div>
       </div>
