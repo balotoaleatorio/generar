@@ -18,5 +18,6 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
+  base: '/generar/',
   test: {},
 });
